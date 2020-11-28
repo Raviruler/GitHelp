@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Fork</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/fork.css">
+    <link rel="stylesheet" href="assets/fonts/Merriweather-BoldItalic.ttf">
+    <link rel="stylesheet" href="assets/fonts/Merriweather-Light.ttf">
+    
+</head>
+<body>
+    <!-- Nav Bar -->
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="index.html">Main Menu</a>
+        <a href="create_Git_Acc.html">Create Github Account</a>
+        <a href="Downlodgithub.html">Git for PC</a>
+        <a href="create_repo.html">Repository</a>
+        <a href="fork.html">Fork</a>
+        <a href="Clone.html">Clone</a>
+        <a href="Push.html">Push</a>
+      </div>
+      <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+      <script>
+        function openNav() { document.getElementById("mySidenav").style.width = "250px";}
+        function closeNav() { document.getElementById("mySidenav").style.width = "0";}
+        </script>
+
+    <div class="container">
+        <p>
+            <h4><strong>What is Fork?</strong></h4>
+            <p>
+                After using GitHub by yourself for a while, you may find yourself wanting to contribute to someone else’s project. <br> 
+                Or maybe you’d like to use someone’s project as the starting point for your own. This process is known as forking. <br>
+                    <br>
+                Creating a “fork” is producing a personal copy of someone else’s project. <br> 
+                Forks act as a sort of bridge between the original repository and your personal copy. <br>
+                You can submit Pull Requests to help make other people’s projects better by offering your changes up to the original project. <br>
+                Forking is at the core of social coding at GitHub.
+            </p>
+            <br>
+            <h4><strong>How to Fork?</strong></h4>
+            <p>
+                To fork the anyone's repository, click the <strong>Fork</strong> button in the header of the repository. <br>
+                <img src="assets/img/Bootcamp-Fork.png" id="fork"> <br>
+                Sit back and watch the forking animation. When it’s finished, you’ll be taken to your copy of the that repository.
+            </p>
+            <p>
+                <h6>
+                    <ul>
+                        <li>Now use <span class="but">Clone</span> cmd to bring the forked repo to your local.</li>
+                        <li>Now update the files.</li>
+                        <li><span class="but">add</span>, <span class="but">commit</span> and <span class="but">push</span> those edits back to your fork on GitHub.</li>
+                        <li>Suggest the changes that you made, to be added to the original repo using a <span class="but">pull request</span>.</li>
+                    </ul>
+                </h6>
+            </p>
+        </p>
+
+    </div>
+    
+</body>
+</html>

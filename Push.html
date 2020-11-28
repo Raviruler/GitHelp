@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Push</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/push.css">
+    <link rel="stylesheet" href="assets/fonts/Merriweather-BoldItalic.ttf">
+    <link rel="stylesheet" href="assets/fonts/Merriweather-Light.ttf">
+</head>
+<body>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Clients</a>
+        <a href="#">Contact</a>
+      </div>
+      <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+      <script>
+      function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+      }
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+      }
+      </script>
+
+      <div class="container">
+        <h2>What is git push?</h2>
+          <p>
+             The git push command is used to upload <strong>local repository content to a remote repository</strong>.
+             Pushing is how you transfer commits from your local repository to a remote repo. <br> 
+             It's the counterpart to git clone, but whereas cloaning imports commits to local branches, <strong><i>pushing exports commits to remote branches</i></strong>. 
+             Remote branches are configured using the git remote command. <br>
+             <div class="note">Note: Pushing has the potential to overwrite changes, caution should be taken when pushing.</div>
+            </p>
+            <br>
+            <h2>How to push?</h2>
+            <p>
+              <span class="note">I'm giving an idea to push from your local (with git installed) to your repository.</span><br>
+
+              <h4>1st Method</h4><br>
+
+              <p>If you created a new folder at your local then you have to do the following for initilization. <br>
+               Open your folder with the files you want to push. <br> In the address bar select all and type cmd. <br>
+              <div class="addressbar">
+                <span>&#128193; &gt; This PC &gt; Desktop &gt; GitHelp</span>
+              </div> <br>
+              <div class="addressbar">
+                cmd
+              </div>
+              then press &#8629;Enter 
+            </p>
+            In Cmd write the following:
+              <div class="cmd">
+                <p>git init</p>
+                <p>git add . &nbsp; &nbsp;<strong><i>OR</i></strong>&nbsp;&nbsp; git add &#8826;filename&#8827;</p>
+                <p>git commit -m "[message]"</p>
+                <p>git remote add origin &#8826;your repo link&#8827;</p>
+                <p>git push origin master</p>
+              </div>
+            </p>
+
+            <h4>2nd Method</h4>
+
+            <p>Fisrt clone your git repository at your local. <br>For this open Command prompt and write</p>
+            <div class="cmd">
+              <p>cd desktop</p>
+              <p>git clone &#8826;repository link&#8827;</p>
+          </div>
+          <p>then <br>Open the folder. <br>
+            put all the files and folders in it.<br>
+            Afterthen in the address bar select all and type cmd.</p>
+          <div class="cmd">
+            <p>git add . &nbsp; &nbsp;<strong><i>OR</i></strong>&nbsp;&nbsp; git add &#8826;filename&#8827;</p>
+            <p>git commit -m "[message]"</p>
+            <p>git push &#8826;repo link&#8827;</p>
+          </div>
+          <div><br>
+            <h4>Help!</h4>
+            <p>For external help providing PDF and you tube video.</p>
+            <ul>
+              <li><a class="btn btn-primary" href="assets/Git Cheat Sheet.pdf" role="button">PDF</a></li><br>
+              <li><a class="btn btn-primary" href="https://youtu.be/_eYJyRK-yaY" role="button">CodeWithHarry(YouTube)</a></li><br>
+              <li><a class="btn btn-primary" href="https://youtu.be/v4TMaD9v5kM" role="button">Thapa Technical(YouTube)</a></li><br>
+            </ul>
+          </div>
+          <p style="text-align: center;">---X---</p>
+      </div>
+
+</body>
+</html>

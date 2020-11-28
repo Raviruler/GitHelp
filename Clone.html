@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>What is / how to clone</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/Clone.css">
+    <link rel="stylesheet" href="assets/fonts/Merriweather-BoldItalic.ttf">
+    <link rel="stylesheet" href="assets/fonts/Merriweather-Light.ttf">
+</head>
+<body>
+    <!-- Nav Bar -->
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="index.html">Main Menu</a>
+        <a href="create_Git_Acc.html">Create Github Account</a>
+        <a href="Downlodgithub.html">Git for PC</a>
+        <a href="create_repo.html">Repository</a>
+        <a href="fork.html">Fork</a>
+        <a href="Clone.html">Clone</a>
+        <a href="Push.html">Push</a>
+      </div>
+      <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+      <script>
+        function openNav() { document.getElementById("mySidenav").style.width = "250px";}
+        function closeNav() { document.getElementById("mySidenav").style.width = "0";}
+        </script>
+
+
+      <div class="container">
+        <div>
+            <h2>What is Git Clone?</h2>
+            <p>
+                Cloning is the act of making a copy of any target repository. 
+                The target repository can be remote or local. 
+                You can clone your repository from the remote repository to create a local copy on your system. 
+                Also, you can sync between the two locations.
+                <p>
+                    The git clone is a command-line utility which is used to make a local copy of a remote repository. 
+                    It accesses the repository through a remote URL. 
+                    <br><br> Usually, the original repository is located on a remote server, often from a Git service like GitHub or GitLab. 
+                    The remote repository URL is referred to the origin.
+                </p>
+            </p>
+            <h2>How to clone?</h2>
+            
+            <h6>for cloning you must have git installed in your device. <br>
+            Then go to the repo u want to clone and copy the HTTPS code by clicking the 
+                <span><button type="button" class="btn btn-success btn-sm">code</button></span> button given on the top of repo. 
+            <br>Then back to ur desktop and open command prompt (Cmd). <br> <br>
+            <div class="cmd">
+                <p>cd desktop&nbsp;&#8594;(Note: it is command to locate desktop in cmd)</p>
+                <p>git clone &#8826;repository URL that you copied&#8827;</p>
+            </div> <br>
+            <p>
+                Now downloading process starts and a folder with the repo name apper at your desktop. <br>
+                you have now a clone copy of the repo at your local. 
+        </p>
+            </h6>
+        </div>
+      </div>
+
+    
+    
+</body>
+</html>

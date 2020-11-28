@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Git Help</title>
+        <!-- links -->
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/help_index.css">
+        <!-- Wish -->
+        <script>
+            type="text/javascript">
+            document.write("<center><font size=+3 style='color: Blue;'>");
+            var day = new Date();
+            var hr = day.getHours();
+            if (hr >= 0 && hr < 12) {
+                document.write("Good Morning!");
+            } else if (hr == 12) {
+                document.write("Good Noon!");
+            } else if (hr >= 12 && hr <= 16) {
+                document.write("Good Afternoon!");
+            }else if (hr >= 16 && hr <= 19) {
+                document.write("Good Evening!");
+            }else {
+                document.write("Coding Hours start!");
+            }
+            document.write("</font></center>");
+        </script>
+    </head>
+    <body>
+        <!-- Nav Bar -->
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="index.html">Main Menu</a>
+            <a href="create_Git_Acc.html">Create Github Account</a>
+            <a href="Downlodgithub.html">Git for PC</a>
+            <a href="create_repo.html">Repository</a>
+            <a href="fork.html">Fork</a>
+            <a href="Clone.html">Clone</a>
+            <a href="Push.html">Push</a>
+          </div>
+          <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+          <script>
+            function openNav() { document.getElementById("mySidenav").style.width = "250px";}
+            function closeNav() { document.getElementById("mySidenav").style.width = "0";}
+            </script>
+
+          <!-- Content -->
+      <div class="container">
+        <div id="animation">
+            <h2>&#9787 Welcome!</h2>
+        </div>
+        <div class="jumbotron">
+            <h1>About GitHub</h1>
+            <div ><img src="assets/img/github-logo.png" id="icon" >
+                <h5><br>GitHub is a code hosting platform for collaboration and version control.<br>
+                    GitHub lets you and others work together on projects. <br>
+                    <a href="https://en.wikipedia.org/wiki/GitHub" target="_blank">Want to know more</a>
+                </h5>
+            </div>
+        </div>
+        <div class=" blockquote-footer">
+            <h3>How this website help You.</h3>
+            <h5>
+                This website will help you with GitHub. <br> From how to create an account in github to how to push in a repo.
+            </h5>
+            <br><br>
+            <h6>Click on the &#x2630 left side on the top to view Contents.</h6>
+        </div><br><br><br><br><br>
+        <div class="container card-footer">
+            <h6>If You have any Suggestions or Quarry <span><a href="https://github.com/Raviruler" target="_blank">contact</a></span> me on github.</h6>
+            <h6>View this project on <span><a href="https://github.com/Raviruler/githelp.github.io"> GitHub</a></span></h6>
+        </div>
+    </div>
+    <!-- Scripts -->
+    
+        <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+        
+    </body>
+</html>
