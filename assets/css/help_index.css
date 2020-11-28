@@ -2,17 +2,7 @@ html{
     width: 100%;
     height: 100%;
 }
-/* Welcome animation */
-#animation{
-    margin-bottom: 20px;
-    position: relative;
-    animation: mymove 7s infinite;
-  }
-  
-  @keyframes mymove {
-    from {left: 0px;}
-    to {left: 85%;}
-  }
+
   /* Git hub icon Styling */
 #icon{
     border: 2px solid black;
