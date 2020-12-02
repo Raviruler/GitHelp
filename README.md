@@ -1,4 +1,3 @@
 # githelp.github.io
-Git Beginner guide.
+<h1 style="text-align: center;">Git Beginner guide.</h1>
 
-[Page Link](https://raviruler.github.io/githelp/)
