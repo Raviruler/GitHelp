@@ -1,3 +1,1 @@
-
-<h1 style="text-align: center;">Git Beginner guide.</h1>
-
+<h1 align="center">Beginner GitHelp.</h1>
